@@ -1,0 +1,185 @@
+    body {
+        text-align: center;
+        margin: 0;
+        font-family: 'Anonymous Pro', monospace;
+background-color: #E4F9F5;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+
+    }
+
+    .top-container {
+        background-color: #E4F9F5;
+        position: relative;
+        padding-top: 50px;
+    }
+
+    .middle-container {
+    background-color: #E4F9F5;
+
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: 300px;
+        top: 50px;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        left: 300px;
+        bottom: 300px;
+    }
+
+    .pfp-portrait {
+        position: relative;
+        overflow: hidden;
+        height: 150px;
+    }
+
+    .uni-img {
+        width: 10%;
+        float: left;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+
+    .education {
+        text-align: left;
+    }
+
+    .education-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: first baseline;
+    }
+
+    .education-title { 
+        text-align: center;
+    }
+
+    .bsc {
+        width: 200;
+        white-space: nowrap;
+        margin-top: 25px;
+        margin-bottom: 0.2rem;
+    }
+
+    .uni {
+        white-space: nowrap;
+        margin-bottom: 1rem;
+    }
+
+    .courses {
+        white-space: nowrap;
+        width: 900px;
+    }
+
+    .education-info {
+        display: inline-block;
+    }
+
+    .education-time {
+        display: inline-block;
+        position: relative;
+        text-align: right;
+    }
+
+    .education-date {
+        text-align: right;
+        position: relative;
+    }
+
+    .work-experience {
+        text-align: left;
+    }
+
+    .work-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex start; 
+        align-items: first baseline;
+        margin-left: 200px;
+    }
+
+    .project-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex start; 
+        align-items: first baseline;
+        margin-left: 200px;
+    }
+
+    .projects {
+        text-align: left;
+    }
+
+    .project-title {
+        text-align: center;
+    }
+
+    .project-name {
+        width: 200;
+        white-space: nowrap;
+        margin-top: 25px;
+        margin-bottom: 0.2rem;
+
+    }
+
+    .project-description{
+        width: 900px;
+    }
+
+    .project-github {
+        display: inline-block;
+        position: relative;
+        margin-left: 220px;
+        text-align: right;
+    }
+
+
+    .work-title {
+        text-align: center;
+    }
+
+    .job-position {
+        width: 200;
+        white-space: nowrap;
+        margin-top: 25px;
+        margin-bottom: 0.2rem;
+    }
+
+    .company-name {
+        width: 300px;
+        white-space: nowrap;
+    }
+
+    .work-description {
+        width: 900px;
+    }
+
+    .work-time {
+        display: inline-block;
+        position: relative;
+        margin-left: 220px;
+        text-align: right;
+    }
+
+    .Certifications { 
+
+    }
+
+    .cert {
+        text-align: center;
+    }
+    
+    .skills {
+        margin-bottom: 2rem;
+    }
+
+
