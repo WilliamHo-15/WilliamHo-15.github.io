@@ -102,17 +102,15 @@ background-color: #E4F9F5;
     .work-row {
         display: flex;
         flex-direction: row;
-        justify-content: flex start; 
+        justify-content: center; 
         align-items: first baseline;
-        margin-left: 200px;
     }
 
     .project-row {
         display: flex;
         flex-direction: row;
-        justify-content: flex start; 
+        justify-content: center; 
         align-items: first baseline;
-        margin-left: 200px;
     }
 
     .projects {
