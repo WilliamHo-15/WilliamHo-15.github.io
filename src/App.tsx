@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Layout, MainLayout } from './components/Layout';
 import { NavBar } from './components/NavBar';
 import PortfolioTheme from './components/Theme';
 import { About } from './components/About';
@@ -19,8 +17,8 @@ function App() {
     return (
       <hr
         style={{
-            width: '500px',
-            borderWidth: '1px'
+          width: '500px',
+          borderWidth: '1px'
         }}
       />
     )

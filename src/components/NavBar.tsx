@@ -1,32 +1,11 @@
 import React from 'react'
-import { Box, Button, AppBar, Toolbar, Avatar, Typography, useTheme } from "@mui/material"
+import { Box, AppBar, Toolbar, Avatar, Typography, useTheme } from "@mui/material"
 import { Link } from 'react-scroll'
+import AboutMeImage from '../static/aboutMe.jpg'
 
-const navItems = ['About', 'Work Experience', 'Projects', 'Contact']
 
 export const NavBar = () => {
     const theme = useTheme()
-    const contact = document.querySelector('#contact')
-    const education = document.getElementById('education')
-
-    interface NavButtonProps {
-        onClick: () => void
-        text: string
-    }
-
-    const NavButton = ({ onClick, text }: NavButtonProps) => {
-        return (
-            <Button
-                onClick={onClick}
-                sx={{
-                    textTransform: 'none',
-                    color: theme.custom.black
-                }}
-            >
-                {text}
-            </Button>
-        )
-    }
 
     return (
         <Box>
@@ -48,7 +27,7 @@ export const NavBar = () => {
                         }}
                         gap={1}
                     >
-                        <Avatar alt="William Ho" src={`${process.env.PUBLIC_URL}/selfimage.jpg`} />
+                        <Avatar alt="William Ho" src={AboutMeImage}/>
                         <Typography>WILLIAM HO</Typography>
                     </Box>
                     <Box

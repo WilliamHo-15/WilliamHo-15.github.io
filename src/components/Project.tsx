@@ -1,6 +1,6 @@
 import { Box, Typography, List, Link, ListSubheader, useTheme } from '@mui/material'
 import React from 'react'
-import { ProjectLayout, AboutMeLayout } from './Layout'
+import { ProjectLayout } from './Layout'
 import yycodrImage from '../static/yycodr.jpg'
 import cryptoPotImage from '../static/CryptoPot.jpg'
 import { ArrowListItem } from './ArrowListItem'

@@ -1,6 +1,5 @@
-import { Box, Typography, List, Button, IconButton } from '@mui/material'
+import { Box, Typography, Button, IconButton } from '@mui/material'
 import React from 'react'
-import { ArrowListItem } from './ArrowListItem'
 import { MainLayout } from './Layout'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';

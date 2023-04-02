@@ -2,7 +2,6 @@ import { Grid, useTheme } from '@mui/material'
 import React, { ReactNode } from 'react'
 
 
-
 interface LayoutProps {
     children: ReactNode
 }
@@ -50,7 +49,6 @@ export const MainLayout = ({
 export const AboutMeLayout = ({
     children
 }: MainLayoutProps) => {
-    const theme = useTheme()
     return (
         <Grid
             container
@@ -74,7 +72,6 @@ export const AboutMeLayout = ({
 export const WorkExperienceLayout = ({
     children
 }: MainLayoutProps) => {
-    const theme = useTheme()
     return (
         <Grid
             display={'flex'}

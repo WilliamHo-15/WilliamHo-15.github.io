@@ -1,7 +1,6 @@
 import React from 'react'
 import { WorkExperienceLayout } from './Layout'
 import { Box, List, Typography } from '@mui/material'
-import AboutImage from '../static/backgroundTexture.jpg'
 import { ArrowListItem } from './ArrowListItem'
 
 
@@ -14,9 +13,6 @@ export const WorkExperience = () => {
             display={'flex'}
             flexDirection={'column'}
             mt={2}
-            sx={{
-                //backgroundImage: `url(${AboutImage})`,
-            }}
         >
             <WorkExperienceLayout>
                 <Typography variant={'h1'} sx={{ marginBottom: 2 }}>Professional Experience</Typography>

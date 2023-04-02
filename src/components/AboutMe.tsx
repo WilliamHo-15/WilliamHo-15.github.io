@@ -1,6 +1,6 @@
-import { Box, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
+import { Box, List, Typography } from '@mui/material'
 import React from 'react'
-import { AboutMeLayout, MainLayout } from './Layout'
+import { AboutMeLayout } from './Layout'
 import AboutMeImage from '../static/aboutMe.jpg'
 import { ArrowListItem } from './ArrowListItem'
 

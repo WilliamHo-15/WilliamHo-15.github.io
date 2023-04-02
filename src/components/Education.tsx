@@ -1,7 +1,6 @@
 import React from 'react'
 import { EducationLayout } from './Layout'
-import { Box, Typography, List } from '@mui/material'
-import { ArrowListItem } from './ArrowListItem'
+import { Box, Typography } from '@mui/material'
 import uofcImage from '../static/uofc.jpg'
 
 export const Education = () => {
